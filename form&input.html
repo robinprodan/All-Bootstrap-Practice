@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <div class="display-3 text-center my-3"></div>
+   <div class="container">
+       <form>
+           <div class="form-group">
+  <label for="name">Name</label>
+  <input class="form-control form control-sm" type="text" id="name" placeholder="Enter name" >
+</div>
+<div class="form-group">
+    <label for="email">Email</label>
+    <input class="form-control form control-lg" type="email" id="email" placeholder="Enter email">
+    <small class="form-text text-muted">
+your email address will not be shared anyone
+    </small>
+</div>
+
+<div class="form-group">
+        <label for="password">Password</label>
+        <input class="form-control" type="password" id="password" placeholder="Enter password" readonly>
+
+    <div class="form-group">
+        <label for="gender">Gender</label>
+        <select class="form-control" name="rabin" id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+    </div>
+<div class="form-group">
+    <label for="message">message</label>
+    <textarea class="form-control" name="message" id="message" cols="20" rows="6"></textarea>
+</div>
+
+<div class="form-group">
+        <label for="file">File input</label>
+        <input class="form-control-file" type="file" id="file">
+        <small class="form-text text-muted" id="fileHelp">
+            max-3mb size       
+         </small>
+    </div>
+
+ <fieldset class="form-group">
+     <legend>What are you using the service for</legend>
+     <div class="form-check">
+         <label class="form-check-label">
+             <input class="form-check-input" type="radio" value="option1" checked >
+             personal
+         </label>
+     </div>
+     <div class="form-check">
+            <label class="form-check-label">
+                <input class="form-check-input" type="radio" value="option2" >
+                commercial use
+            </label>
+        </div>
+        <div class="form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" type="radio" value="option3" disabled >
+                    Testing
+                </label>
+        
+ </fieldset>
+            <div class="form-check">
+                    <label class="form-check-label">
+                        <input class="form-check-input" type="checkbox" >
+                       Sing up
+                    </label>
+                </div>
+                <button class="btn btn-success mt-3" > Submit</button>
+
+       </form>
+       <br><br>
+<form class="form-inline" >
+       <input class="form-control mr-3" type="text" id="name" placeholder="Enter user name">
+       <input class="form-control mr-3" type="password" id="password"  placeholder="Password">
+       <div class="form-check">
+            <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox">
+            </label>
+         
+        </div>
+        <button class="btn btn-info">Submit</button>
+
+</form>
+
+<div class="form-group">
+    <label for="username">Username</label>
+    <input class="form-control is-valid" type="text" id="username">
+    <div class="valid-feedback">Username available</div>
+    <small>Must be ata least 8 character</small>
+</div>
+<div class="form-group">
+        <label for="password">password</label>
+        <input class="form-control is-invalid" type="password" id="password">
+        <div class="invalid-feedback">This password is not safe</div>
+        <small>Password use a strong password</small>
+    </div>
+           
+       
+   </div>
+
+
+</body>
+</html>
